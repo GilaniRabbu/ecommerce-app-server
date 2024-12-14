@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-app-server",
+  "name": "zoomshop-app-server",
   "version": "1.0.0",
   "description": "E-Commerce Rest API",
   "main": "index.js",

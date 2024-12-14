@@ -1,10 +1,10 @@
 import express from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
-import connectDB from "./config/db.js";
-import authRoutes from "./routes/authRoute.js";
-import categoryRoutes from "./routes/categoryRoutes.js";
-import productRoutes from "./routes/productRoutes.js";
+import connectDB from "./src/config/db.js";
+import authRoutes from "./src/routes/authRoute.js";
+import categoryRoutes from "./src/routes/categoryRoutes.js";
+import productRoutes from "./src/routes/productRoutes.js";
 import cors from "cors";
 
 // configure env
